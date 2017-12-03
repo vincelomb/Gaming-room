@@ -100,39 +100,17 @@ a:hover {
 	margin-right: 30px;
 }
 
-.newscase-1,
-.newscase-2,
-.newscase-3
- {
+.newscase {
 	display: block;
 	float: left;
 	text-align: center;
-	width: 30%;
+	width: auto;
 	margin: 0px 2px;
 	padding: 10px 8px;
 	border: 2px solid green;
     border-radius: 5px;
 }
-@media screen and (max-width:760px){
-  .newscase-1 {
-		width: 70%;
-		margin-left: 12%;
-		margin-right: 15%;
-	}
-	.newscase-2 {
-		width: 70%;
-		margin-left: 12%;
-		margin-right: 15%;
-	}
-	.newscase-3 {
-		width: 70%;
-		margin-left: 12%;
-		margin-right: 15%;
-	}
 
-
-}
-/* ------------------------------------------*/
 div > h3 {
 	font-size: 15px;
 	text-decoration: underline;
