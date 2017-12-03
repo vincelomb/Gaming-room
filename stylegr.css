@@ -1,0 +1,298 @@
+html
+
+#background {
+	background-image: url("degradegris.jpg");
+	font-family: 'Domine', serif;
+	font-size: 12px;
+}
+
+#fonttitle {
+	font-family: 'Press Start 2P', cursive;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#topbar {
+	width: 100%;
+	box-sizing: inherit;
+}
+
+#topbox {
+	max-width: 1200px;
+	margin: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #000;
+	background-color: #3AA841;
+	font-size: 20px;
+	box-sizing: inherit;
+}
+
+#searcher {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    margin-left: 25px;
+    padding: 14px 17px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    box-sizing: inherit;
+}
+
+#account {
+	margin-right: 30px;
+	color: #fff;
+}
+
+#platformbar {
+	width: 100%;
+	box-sizing: inherit;
+	display: block;
+	text-align: center;
+}
+
+#platformbox {
+	display: inline-block;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	max-width: 1200px;
+	background-color: #2E8731
+}
+
+.platformcase {
+	width: auto;
+	padding: 8px 100px;
+	text-align: center;
+	float: left;
+    border: none;
+    outline: none;
+    display: inline-block;
+    white-space: normal;
+    border-right: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+	background-color: #00F008;
+	color: #010101;
+}
+
+#newsbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+	box-sizing: inherit;
+	padding: 8px 16px;
+	margin-top: 30px;
+}
+
+#newsbox {
+	max-width: 1200px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.newscase {
+	display: block;
+	float: left;
+	text-align: center;
+	width: auto;
+	margin: 0px 2px;
+	padding: 10px 8px;
+	border: 2px solid green;
+    border-radius: 5px;
+}
+
+div > h3 {
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.newsimg {
+	max-width: 100%;
+	max-height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#sectionbar {
+	width: 100%;
+	text-align: center;
+	box-sizing: inherit;
+	padding: 8px 16px;
+}
+
+#sectionbox {
+	max-width: 1200px;
+	display: inline-block;
+	padding:  20px 30px;
+}
+
+.sectioncolumn {
+	width: auto;
+	text-align: left;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 30px;
+	font-size: 23px;
+}
+
+#columnbreak {
+	 border-right: 1px solid #010101;
+	 padding-right: 150px;
+}
+
+#columnright {
+	margin-left: 40px;
+	margin-right: 50px;
+	padding-left: 20px;
+}
+
+ul > li {
+	margin: 15px 0;
+}
+
+ul > li:hover {
+	text-decoration: underline;
+	color: #00A1E6;
+}
+
+.footerbreak {
+	margin: 20px 150px;
+}
+
+#footerbar {
+	width: 100%;
+	text-align: center;
+	box-sizing: inherit;
+	padding: 8px 16px;
+}
+
+#footerbox {
+	max-width: 1200px;
+	display: inline-block;
+	padding:  20px 30px;
+}
+
+.footercase {
+	width: auto;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	color: green;
+}
+
+#footertext {
+	word-spacing: 25px;
+	font-size: 13px;
+}
+
+#footerrs {
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.imgfooter {
+	width: 20% !important;
+	max-height: 50px !important;
+	padding: 0px 5px;
+}
+
+.inheritance {
+	box-sizing: inherit;
+}
+
+.p16 {
+	padding-bottom: 16px !important;
+	padding-top: 16px !important;
+}
+
+.lefty {
+	float: left;
+}
+
+.righty {
+	float: right;
+}
+
+.centred {
+	text-align: center;
+}
+
+#podiumtext {
+	text-align: center;
+	margin-top: 30px;
+	color: #EFD807;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#podiumbar {
+	width: 100%;
+	display: block;
+	text-align: center;
+	box-sizing: inherit;
+	padding: 8px 16px;
+	margin-top: 30px;
+}
+
+#podiumbox {
+	max-width: 1200px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.podiumcase {
+	display: block;
+	float: left;
+	text-align: center;
+	width: auto;
+	margin: 0px 2px;
+	padding: 10px 8px;
+}
+
+#pubgpodium {
+	height: 120px;
+	margin-top: 80px;
+}
+
+#mariopodium {
+	height: 80px;
+	margin-top: 120px
+}
+
+.podiumimg {
+	max-width: 100%;
+	max-height: 200px;
+	border-radius: 5px;
+}
+
+#nouveautesdroite {
+	width: 50%;
+}
+
+#imgpub {
+	height: 400px;
+	max-width: 300px;
+	border-radius: 5px;
+}
+
+.imgfooterpc {
+	width: 20% !important;
+	max-height: 50px !important;
+	padding: 0px 2px;
+}
+
+#footertextpc {
+	word-spacing: 15px;
+	font-size: 16px;
+}
